@@ -28,42 +28,42 @@ A couple definitions to help understand the metrics shown in the images.
 	The ability of a model to find all of the true positives within the dataset. For example, I already know that I have diabetes,
 	so how likely will the model accurately predict that I have diabetes. This is scored from zero to one. The closer to one the better the prediction.
 
-![random oversampling] (https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/random_over_sampling.png)
+![random oversampling](https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/random_over_sampling.png)
 - Balanced accuracy score: 64%
 - Precision for high risk: .01
 - Precision for low risk: 1.0
 - Recall for high risk: .62
 - Recall for low risk: .67
 
-![smote oversampling] (https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/smote_oversampling.png)
+![smote oversampling](https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/smote_oversampling.png)
 - Balanced accuracy score: 65%
 - Precision for high risk: .01
 - Precision for low risk: 1.0
 - Recall for high risk: .66
 - Recall for low risk: .64
 
-![cluster centroid undersampling] (https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/cluster_centroid.png)
+![cluster centroid undersampling](https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/cluster_centroid.png)
 - Balanced accuracy score: 51%
 - Precision for high risk: .01
 - Precision for low risk: 1.0
 - Recall for high risk: .63
 - Recall for low risk: .39
 
-![smoteenn under/oversampling] (https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/smoteenn.png)
+![smoteenn under/oversampling](https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/smoteenn.png)
 - Balanced accuracy score: 62%
 - Precision for high risk: .01
 - Precision for low risk: 1.0
 - Recall for high risk: .70
 - Recall for low risk: .55
 
-![balanced random forest] (https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/balanced_random_forest.png)
+![balanced random forest](https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/balanced_random_forest.png)
 - Balanced accuracy score: 79%
 - Precision for high risk: .04
 - Precision for low risk: 1.0
 - Recall for high risk: .67
 - Recall for low risk: .91
 
-![easy ensemble] (https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/easy_ensemble.png)
+![easy ensemble](https://github.com/jseverin1984/Credit_Risk_Analysis/blob/main/Resources/easy_ensemble.png)
 - Balanced accuracy score: 93%
 - Precision for high risk: .07
 - Precision for low risk: 1.0

@@ -20,11 +20,16 @@ the stratify parameter, my numbers have come out slightly different than what wa
 A couple definitions to help understand the metrics shown in the images.
 
 - Balanced accuracy score
+
 	The percentage of correctly predicted observations by the model.
+
 - Precision
+
 	How reliable a models prediction is. For example, if a model to predict diabetes predicts I have diabetes, how likely is it that
 	the prediction is correct. This is scored from zero to one. The closer to one the better the prediction.
+
 - Recall/sensitivity
+
 	The ability of a model to find all of the true positives within the dataset. For example, I already know that I have diabetes,
 	so how likely will the model accurately predict that I have diabetes. This is scored from zero to one. The closer to one the better the prediction.
 
